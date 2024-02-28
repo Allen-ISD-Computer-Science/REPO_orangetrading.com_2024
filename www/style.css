@@ -1687,6 +1687,11 @@ input[type=range]::-moz-focus-outer {
   background-color: rgb(238 153 55 / var(--tw-bg-opacity));
 }
 
+.bg-orange-1000{
+  --tw-bg-opacity: 0.5;
+  background-color: rgb(238 153 55 / var(--tw-bg-opacity));
+}
+
 .bg-gray-800{
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
