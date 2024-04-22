@@ -1699,7 +1699,7 @@ input[type=range]::-moz-focus-outer {
 
 .border-orange-800{
   --tw-border-opacity: 1;
-  border-color: rgb(233 105 42 / var(--tw-border-opacity));
+  border-color: rgb(255 105 42 / var(--tw-border-opacity));
 }
 
 .border-transparent{
@@ -1735,7 +1735,12 @@ input[type=range]::-moz-focus-outer {
 
 .bg-orange-800{
   --tw-bg-opacity: 1;
-  background-color: rgb(233 105 42 / var(--tw-bg-opacity));
+  background-color: rgb(255 105 42 / var(--tw-bg-opacity));
+}
+
+.bg-rust{
+  --tw-bg-opacity: 1;
+  background-color: rgb(26 21 18 / var(--tw-bg-opacity)); //#1A1512
 }
 
 .bg-dorange-800{
@@ -1805,7 +1810,7 @@ input[type=range]::-moz-focus-outer {
 }
 
 .from-orange-800 {
-  --tw-gradient-from: #e9692a;
+  --tw-gradient-from: #FF692A;
   --tw-gradient-to: rgb(31 41 55 / 0);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }

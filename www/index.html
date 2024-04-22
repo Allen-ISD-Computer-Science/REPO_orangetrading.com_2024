@@ -11,68 +11,73 @@
     <link rel='icon' type='image/png' href='images/stockhub_logo_no_bg_white.png'/>
 </head>
 
-<body class="font-inter antialiased bg-gray-900 tracking-tight">
+<body class="font-inter antialiased bg-rust tracking-tight">
 
     <!-- Page wrapper -->
     <div class="flex flex-col min-h-screen overflow-hidden text-white">
 
-        
+
+        <!-- Page content -->
         <!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container">
-    <div class="tradingview-widget-container__widget"></div>
-    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a></div>
-    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-    {
-    "symbols": [
-      {
-        "description": "",
-        "proName": "NASDAQ:TSLA"
-      },
-      {
-        "description": "",
-        "proName": "NASDAQ:NVDA"
-      },
-      {
-        "description": "",
-        "proName": "NASDAQ:AAPL"
-      },
-      {
-        "description": "",
-        "proName": "NASDAQ:META"
-      },
-      {
-        "description": "",
-        "proName": "SP:SPX"
-      },
-      {
-        "description": "",
-        "proName": "BLACKBULL:US30"
-      }
-    ],
-    "showSymbolLogo": true,
-    "isTransparent": true,
-    "displayMode": "adaptive",
-    "colorTheme": "dark"
-    "locale": "en"
-  }
-    </script>
-  </div>
-  <!-- TradingView Widget END -->
-  
+        <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"></div>
+            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow"
+                    target="_blank"><span class="blue-text"></span></a></div>
+            <script type="text/javascript"
+                src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+                    {
+                        "symbols": [
+                            {
+                                "description": "",
+                                "proName": "NASDAQ:TSLA"
+                            },
+                            {
+                                "description": "",
+                                "proName": "NASDAQ:NVDA"
+                            },
+                            {
+                                "description": "",
+                                "proName": "NASDAQ:AAPL"
+                            },
+                            {
+                                "description": "",
+                                "proName": "NASDAQ:META"
+                            },
+                            {
+                                "description": "",
+                                "proName": "SP:SPX"
+                            },
+                            {
+                                "description": "",
+                                "proName": "BLACKBULL:US30"
+                            }
+                        ],
+                            "showSymbolLogo": true,
+                                "isTransparent": true,
+                                    "displayMode": "adaptive",
+                                        "colorTheme": "dark",
+                        "locale": "en"
+                    }
+                </script>
+        </div>
+        <!-- TradingView Widget END -->
+
         <main class="grow">
 
             <header class='bg-orange-800'>
                 <!-- Account section -->
                 <ul class="flex grow justify-end flex-wrap items-center pt-4 px-4 pb-4">
                     <li>
-                        <a class="btn-sm text-white bg-gray-900 hover:to-blue-501 w-full shadow-lg group" href="account/signup.html">
-                            Sign Up
+                        <a class="btn-sm text-white bg-rust hover:to-blue-501 w-full shadow-lg group"
+                            href="account/login.html">
+                            Log In
                         </a>
                     </li>
                     <li class="ml-3">
-                        <a class="btn-sm text-white bg-gray-900 hover:to-blue-501 w-full shadow-lg group" href="account/login.html">
-                            Log In
-                        </a>
+                      <a class="btn-sm text-white bg-rust hover:to-blue-501 w-full shadow-lg group"
+                          href="account/signup.html">
+                          Sign Up
+                      </a>
                     </li>
                 </ul>
             </header>
@@ -82,24 +87,26 @@
 
                 <!-- Logo -->
                 <div class="my-6">
-                    <img src="./images/stockhub_logo_no_bg_white.png" class="max-w-none" width="400" height="400" alt="Hero">
+                    <img src="./images/stockhub_logo_no_bg_white.png" class="max-w-none" width="400" height="400"
+                        alt="Hero">
                 </div>
 
-            		<div class="my-40">
-            			<img src="./images/stockhubtext.webp">
-            		</div>
+                <div class="my-40">
+                    <img src="./images/stockhubtext.webp">
+                </div>
 
             </section>
 
-            <!-- The Home of ... -->
+            <!-- The best ... -->
             <!-- Features -->
-            <section class="">
+            <section class="border-b-2 border-orange-800">
                 <div class="max-w-6xl mx-auto px-4 sm:px-6">
                     <div class="py-12 md:py-20">
 
                         <!-- big text -->
                         <div class="text-center pb-12 md:pb-20">
-                            <h2 class="h2 font-uncut-sans" data-aos="zoom-out">The best stock indicators and trading tools.</h2>
+                            <h2 class="h2 font-uncut-sans" data-aos="zoom-out">The best stock indicators and trading
+                                tools.</h2>
                         </div>
 
                         <!-- Items -->
@@ -109,52 +116,75 @@
                             <div class="flex flex-col items-center" data-aos="zoom-out">
                                 <div class="mb-4">
                                     <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                        <rect width="14.5" height="14.5" x="4.75" y="4.75" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" rx="2"></rect>
-                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8.75 10.75L11.25 13L8.75 15.25"></path>
-                                      </svg>
+                                        <rect width="14.5" height="14.5" x="4.75" y="4.75" stroke="currentColor"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" rx="2">
+                                        </rect>
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="1.5" d="M8.75 10.75L11.25 13L8.75 15.25"></path>
+                                    </svg>
 
 
                                 </div>
                                 <h4 class="h4 text-center mb-2">Custom algorithm</h4>
-                                <p class="text-lg text-center">Our custom algorithm that has hundreds of hours of development is optimized to make the smartest trades possible.</p>
+                                <p class="text-lg text-center">Our custom algorithm that has hundreds of hours of
+                                    development is optimized to make the smartest trades possible.</p>
                             </div>
 
                             <!-- 2nd item -->
                             <div class="flex flex-col items-center" data-aos="zoom-out" data-aos-delay="200">
                                 <div class="mb-4">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
 
 
-                                        <path d="M6.75 8.75C6.75 7.64543 7.64543 6.75 8.75 6.75H15.25C16.3546 6.75 17.25 7.64543 17.25 8.75V15.25C17.25 16.3546 16.3546 17.25 15.25 17.25H8.75C7.64543 17.25 6.75 16.3546 6.75 15.25V8.75Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                        <path d="M9.75 4.75V6.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                        <path d="M19.25 9.75L17.75 9.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                        <path d="M9.75 17.75V19.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                        <path d="M6.25 9.75L4.75 9.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                        <path d="M14.25 4.75V6.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                        <path d="M19.25 14.25L17.75 14.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                        <path d="M14.25 17.75V19.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                        <path d="M6.25 14.25L4.75 14.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path
+                                            d="M6.75 8.75C6.75 7.64543 7.64543 6.75 8.75 6.75H15.25C16.3546 6.75 17.25 7.64543 17.25 8.75V15.25C17.25 16.3546 16.3546 17.25 15.25 17.25H8.75C7.64543 17.25 6.75 16.3546 6.75 15.25V8.75Z"
+                                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                        <path d="M9.75 4.75V6.25" stroke="currentColor" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M19.25 9.75L17.75 9.75" stroke="currentColor" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M9.75 17.75V19.25" stroke="currentColor" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M6.25 9.75L4.75 9.75" stroke="currentColor" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M14.25 4.75V6.25" stroke="currentColor" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M19.25 14.25L17.75 14.25" stroke="currentColor" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M14.25 17.75V19.25" stroke="currentColor" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M6.25 14.25L4.75 14.25" stroke="currentColor" stroke-width="1.5"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
 
                                     </svg>
 
                                 </div>
                                 <h4 class="h4 text-center mb-2">Trading mentorship</h4>
-                                <p class="text-lg text-center">We can't trade for you. But we can offer help on a silver platter.</p>
+                                <p class="text-lg text-center">We can't trade for you. But we can offer help on a silver
+                                    platter.</p>
                             </div>
 
                             <!-- 3rd item -->
                             <div class="flex flex-col items-center" data-aos="zoom-out" data-aos-delay="400">
                                 <div class="mb-4">
                                     <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18.25 11.5V19.25M5.75 19.25V11.5M9.75 19.25V11.5M14.25 19.25V11.5"></path>
-                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 4.75L19.25 11.25H4.75L12 4.75Z"></path>
-                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.75 19.25H19.25"></path>
-                                      </svg>
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="1.5"
+                                            d="M18.25 11.5V19.25M5.75 19.25V11.5M9.75 19.25V11.5M14.25 19.25V11.5">
+                                        </path>
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="1.5" d="M12 4.75L19.25 11.25H4.75L12 4.75Z"></path>
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="1.5" d="M4.75 19.25H19.25"></path>
+                                    </svg>
 
 
                                 </div>
                                 <h4 class="h4 text-center mb-2">Minimal risk</h4>
-                                <p class="text-lg text-center">Our algorithm has endless customizability to ensure your needs are satisfied to make money with minimal losses</p>
+                                <p class="text-lg text-center">Our algorithm has endless customizability to ensure your
+                                    needs are satisfied to make money with minimal losses</p>
                             </div>
 
                         </div>
@@ -163,49 +193,53 @@
                 </div>
             </section>
 
-            <!-- Features #2 -->
-            <section class="relative">
-
-                <!-- Bg gradient -->
-                <div class="absolute top-0 left-0 right-0 bg-gradient-to-b from-orange-800 to-gray-900 opacity-60 h-[10rem] pointer-events-none -z-10" aria-hidden="true"></div>
-
-                <!-- Bg illustration -->
-                <div class="absolute top-0 left-1/2 -z-10 ml-[390px]" aria-hidden="true">
-                  <!--   <img src="./images/features-illustration.svg" class="max-w-none" width="608" height="305" alt="Illustration">
-            -->    </div>
+            <!-- Our hyper... -->
+            <section class="relative border-b-2 border-orange-800">
 
                 <div class="max-w-6xl mx-auto px-4 sm:px-6">
                     <div class="py-12 md:py-20">
 
                         <!-- Section header -->
                         <div class="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-                            <h2 id="feature" class="h2 font-uncut-sans mb-4">Our hyper-optimized algorithm ensures our guidence carries the least risk possible</h2>
+                            <h2 id="feature" class="h2 font-uncut-sans mb-4">Our hyper-optimized algorithm ensures our
+                                guidence carries the least risk possible</h2>
                         </div>
 
                         <!-- Section content -->
-                        <div class="max-w-xl mx-auto md:max-w-none flex flex-col md:flex-row md:items-center md:space-x-8 lg:space-x-16 xl:space-x-18 space-y-8 space-y-reverse md:space-y-0">
+                        <div
+                            class="max-w-xl mx-auto md:max-w-none flex flex-col md:flex-row md:items-center md:space-x-8 lg:space-x-16 xl:space-x-18 space-y-8 space-y-reverse md:space-y-0">
 
                             <!-- Content -->
-                            <div class="md:w-7/12 lg:w-1/2 order-1 md:order-none" data-aos="zoom-out" data-aos-delay="200">
+                            <div class="md:w-7/12 lg:w-1/2 order-1 md:order-none" data-aos="zoom-out"
+                                data-aos-delay="200">
                                 <div class="text-center md:text-left">
                                     <h3 class="h3 font-uncut-sans text-4xl mb-4">Proven profitable</h3>
-                                    <p class="text-xl mb-6">Our algorithm is designed to have a positive in rate in order to make passive income over time. Our backtested results have shown that the algorithm we use will trade while also having as minimal losses possible.</p>
+                                    <p class="text-xl mb-6">Our algorithm is designed to have a positive in rate in
+                                        order to make passive income over time. Our backtested results have shown that
+                                        the algorithm we use will trade while also having as minimal losses possible.
+                                    </p>
                                     <ul class="inline-flex flex-col text-lg space-y-3">
                                         <li class="flex items-center">
-                                            <svg class="w-3 h-3 fill-current text-emerald-501 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                                            <svg class="w-3 h-3 fill-current text-emerald-501 mr-3 shrink-0"
+                                                viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                                             </svg>
                                             <span>Custom strategies for various tickers</span>
                                         </li>
                                         <li class="flex items-center">
-                                            <svg class="w-3 h-3 fill-current text-emerald-501 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                                            <svg class="w-3 h-3 fill-current text-emerald-501 mr-3 shrink-0"
+                                                viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                                             </svg>
                                             <span>72% win rate</span>
                                         </li>
                                         <li class="flex items-center">
-                                            <svg class="w-3 h-3 fill-current text-emerald-501 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                                            <svg class="w-3 h-3 fill-current text-emerald-501 mr-3 shrink-0"
+                                                viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                                             </svg>
                                             <span>$49,547 made in 3 months</span>
                                         </li>
@@ -216,7 +250,8 @@
                             <!-- Image -->
                             <div class="md:w-5/12 lg:w-1/2" data-aos="zoom-out">
 
-                               <img class="mx-auto md:max-w-none" src="images/algorithm.png" width="540" height="581" alt="Features" />
+                                <img class="mx-auto md:max-w-none" src="images/algorithm.png" width="540" height="581"
+                                    alt="Features" />
                             </div>
 
                         </div>
@@ -226,13 +261,14 @@
             </section>
 
             <!-- Pricing -->
-            <section class="relative">
+            <section class="relative border-b-2 border-orange-800">
 
                 <!-- Illustration -->
-                <div class="hidden lg:block absolute bottom-0 left-1/2 -translate-x-1/2 pointer-events-none -z-10" aria-hidden="true">
+                <div class="hidden lg:block absolute bottom-0 left-1/2 -translate-x-1/2 pointer-events-none -z-10"
+                    aria-hidden="true">
                     <!--- <img src="./images/pricing-illustration.svg" class="max-w-none" width="618" height="468" alt="Pricing Illustration">
                     -->
-                    </div>
+                </div>
 
                 <div class="max-w-6xl mx-auto px-4 sm:px-6">
                     <div class="py-12 md:py-20 border-t border-gray-800">
@@ -259,28 +295,34 @@
                                     </div>
                                     <div class="mb-6">Our simplest plan for beginners</div>
                                     <a class="btn-sm text-white bg-dorange-800 hover:to-blue-501 w-full shadow-lg group"
-                                    href = "products/pro.html"
-                                    >
-                                        More Info <span class="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
-                                </a>
+                                        href="products/pro.html">
+                                        More Info <span
+                                            class="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+                                    </a>
                                 </div>
                                 <div class="font-medium mb-4">Features include:</div>
                                 <ul class="space-y-3 grow">
                                     <li class="flex items-center">
-                                        <svg class="w-3 h-3 fill-current text-emerald-501 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                                        <svg class="w-3 h-3 fill-current text-emerald-501 mr-3 shrink-0"
+                                            viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                                         </svg>
                                         <span>Access to our trading floor channel</span>
                                     </li>
                                     <li class="flex items-center">
-                                        <svg class="w-3 h-3 fill-current text-emerald-501 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                                        <svg class="w-3 h-3 fill-current text-emerald-501 mr-3 shrink-0"
+                                            viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                                         </svg>
                                         <span>Custom crypto signals</span>
                                     </li>
                                     <li class="flex items-center">
-                                        <svg class="w-3 h-3 fill-current text-emerald-501 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                                        <svg class="w-3 h-3 fill-current text-emerald-501 mr-3 shrink-0"
+                                            viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                                         </svg>
                                         <span>Stock signals</span>
 
@@ -291,11 +333,15 @@
                             </div>
 
                             <!-- Pricing table 2 -->
-                            <div class="relative flex flex-col h-full p-6 bg-dorange-800" data-aos="zoom-out" data-aos-delay="100">
+                            <div class="relative flex flex-col h-full p-6 bg-dorange-800 rounded" data-aos="zoom-out"
+                                data-aos-delay="100">
                                 <div class="absolute top-0 right-0 mr-6 -mt-4">
-                                    <div class="inline-flex items-center text-sm font-semibold py-1 px-3 text-emerald-600 bg-emerald-200 rounded-full">
-                                        <svg class="fill-emerald-501 mr-2" width="12" height="14" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M5.315.068a.5.5 0 0 0-.745.347A7.31 7.31 0 0 1 3.182 3.6a7.924 7.924 0 0 1-.8.83A6.081 6.081 0 0 0 0 9.035a5.642 5.642 0 0 0 2.865 4.9.5.5 0 0 0 .746-.4 2.267 2.267 0 0 1 .912-1.67 4.067 4.067 0 0 0 1.316-1.4 4.662 4.662 0 0 1 1.819 3.1.5.5 0 0 0 .742.371c1.767-.999 2.86-2.87 2.865-4.9-.001-3.589-2.058-6.688-5.95-8.968Z" />
+                                    <div
+                                        class="inline-flex items-center text-sm font-semibold py-1 px-3 text-emerald-600 bg-emerald-200 rounded-full">
+                                        <svg class="fill-emerald-501 mr-2" width="12" height="14"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5.315.068a.5.5 0 0 0-.745.347A7.31 7.31 0 0 1 3.182 3.6a7.924 7.924 0 0 1-.8.83A6.081 6.081 0 0 0 0 9.035a5.642 5.642 0 0 0 2.865 4.9.5.5 0 0 0 .746-.4 2.267 2.267 0 0 1 .912-1.67 4.067 4.067 0 0 0 1.316-1.4 4.662 4.662 0 0 1 1.819 3.1.5.5 0 0 0 .742.371c1.767-.999 2.86-2.87 2.865-4.9-.001-3.589-2.058-6.688-5.95-8.968Z" />
                                         </svg>
                                         <span>Most Popular</span>
                                     </div>
@@ -309,28 +355,34 @@
                                     </div>
                                     <div class="mb-6">For those who want to trade + passive income</div>
                                     <a class="btn-sm text-white bg-gray-900 hover:to-blue-501 w-full shadow-lg group"
-                                href="products/premium.html"
-                                    >
-                                        More Info <span class="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
-                                </a>
+                                        href="products/premium.html">
+                                        More Info <span
+                                            class="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+                                    </a>
                                 </div>
                                 <div class="font-medium mb-4">Everything in Pro, plus:</div>
                                 <ul class="space-y-3 grow">
                                     <li class="flex items-center">
-                                        <svg class="w-3 h-3 fill-current text-emerald-501 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                                        <svg class="w-3 h-3 fill-current text-emerald-501 mr-3 shrink-0"
+                                            viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                                         </svg>
                                         <span>Premium crypto signals</span>
                                     </li>
                                     <li class="flex items-center">
-                                        <svg class="w-3 h-3 fill-current text-emerald-501 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                                        <svg class="w-3 h-3 fill-current text-emerald-501 mr-3 shrink-0"
+                                            viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                                         </svg>
                                         <span>Premium forex signals</span>
                                     </li>
                                     <li class="flex items-center">
-                                        <svg class="w-3 h-3 fill-current text-emerald-501 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                                        <svg class="w-3 h-3 fill-current text-emerald-501 mr-3 shrink-0"
+                                            viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                                         </svg>
                                         <span>Automatic forex trading bot</span>
                                     </li>
@@ -355,28 +407,34 @@
                                     <div class="mb-6">Maximum winning strategies for the pros</div>
 
                                     <a class="btn-sm text-white bg-dorange-800 hover:to-blue-501 w-full shadow-lg group"
-                                  href="products/supreme.html"
-                                    >
-                                        More Info <span class="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
-                                </a>
+                                        href="products/supreme.html">
+                                        More Info <span
+                                            class="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+                                    </a>
                                 </div>
                                 <div class="font-medium mb-4">Everything in Premium, plus:</div>
                                 <ul class="space-y-3 grow">
                                     <li class="flex items-center">
-                                        <svg class="w-3 h-3 fill-current text-emerald-501 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                                        <svg class="w-3 h-3 fill-current text-emerald-501 mr-3 shrink-0"
+                                            viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                                         </svg>
                                         <span>Supreme crypto signals</span>
                                     </li>
                                     <li class="flex items-center">
-                                        <svg class="w-3 h-3 fill-current text-emerald-501 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                                        <svg class="w-3 h-3 fill-current text-emerald-501 mr-3 shrink-0"
+                                            viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                                         </svg>
                                         <span>1 on 1 trading course with the owner</span>
                                     </li>
                                     <li class="flex items-center">
-                                        <svg class="w-3 h-3 fill-current text-emerald-501 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                                        <svg class="w-3 h-3 fill-current text-emerald-501 mr-3 shrink-0"
+                                            viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                                         </svg>
                                         <span>Automatic crypto trading bot</span>
 
@@ -395,12 +453,6 @@
             <!-- Testimonials -->
             <section class="relative">
 
-                <!-- Bg gradient: top -->
-                <div class="absolute top-0 left-0 right-0 bg-gradient-to-b from-orange-800 to-gray-900 opacity-60 h-[10rem] pointer-events-none -z-10" aria-hidden="true"></div>
-
-                <!-- Bg gradient: bottom -->
-                <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-gray-900 to-transparent h-[15rem] pointer-events-none z-10" aria-hidden="true"></div>
-
                 <div class="max-w-6xl mx-auto px-4 sm:px-6">
                     <div class="pt-12 md:pt-20">
 
@@ -410,84 +462,116 @@
                         </div>
 
                         <!-- Testimonials container -->
-                        <div class="max-w-sm mx-auto sm:max-w-none grid gap-12 sm:grid-cols-2 md:grid-cols-3 sm:gap-x-6 sm:gap-y-8 items-start" data-aos-id-testimonials>
+                        <div class="max-w-sm mx-auto sm:max-w-none grid gap-12 sm:grid-cols-2 md:grid-cols-3 sm:gap-x-6 sm:gap-y-8 items-start"
+                            data-aos-id-testimonials>
 
                             <!-- 1st Testimonial -->
-                            <article class="h-full flex flex-col bg-orange-800 p-6" data-aos="fade" data-aos-anchor="[data-aos-id-testimonials]">
+                            <article class="h-full flex flex-col bg-orange-800 p-6 rounded" data-aos="fade"
+                                data-aos-anchor="[data-aos-id-testimonials]">
                                 <header class="mb-4">
-                                    <img class="rounded-full shrink-0" src="images/testimonials/testim1.webp" width="48" height="48" alt="Testimonial 01" />
+                                    <img class="rounded-full shrink-0" src="images/testimonials/testim1.webp" width="48"
+                                        height="48" alt="Testimonial 01" />
                                 </header>
                                 <div class="grow mb-3">
-                                    <p>This is no joke, it might take some time to actually see good returns but the wait is worth it.</p>
+                                    <p>This is no joke, it might take some time to actually see good returns but the
+                                        wait is worth it.</p>
                                 </div>
                                 <footer class="text-sm">
-                                    <span class="">Lewl</span>  <a class="font-medium text-blue-501 hover:text-blue-400 transition duration-150 ease-in-out" href="#0"></a>
+                                    <span class="">Lewl</span> <a
+                                        class="font-medium text-blue-501 hover:text-blue-400 transition duration-150 ease-in-out"
+                                        href="#0"></a>
                                 </footer>
                             </article>
 
                             <!-- 2nd Testimonial -->
-                            <article class="h-full flex flex-col bg-orange-800 p-6" data-aos="fade" data-aos-anchor="[data-aos-id-testimonials]" data-aos-delay="100">
+                            <article class="h-full flex flex-col bg-orange-800 p-6 rounded" data-aos="fade"
+                                data-aos-anchor="[data-aos-id-testimonials]" data-aos-delay="100">
                                 <header class="mb-4">
-                                    <img class="rounded-full shrink-0" src="images/testimonials/testim2.webp" width="48" height="48" alt="Testimonial 02" />
+                                    <img class="rounded-full shrink-0" src="images/testimonials/testim2.webp" width="48"
+                                        height="48" alt="Testimonial 02" />
                                 </header>
                                 <div class="grow mb-3">
-                                    <p>Support was amazing! Super kind and quick to respond. I purchased the pro version and the owner helped me with every step and made sure I was happy with my purchase. Soon I WILL buy supreme</p>
+                                    <p>Support was amazing! Super kind and quick to respond. I purchased the pro version
+                                        and the owner helped me with every step and made sure I was happy with my
+                                        purchase. Soon I WILL buy supreme</p>
                                 </div>
                                 <footer class="text-sm">
-                                    <span>Meow:3 </span>  <a class="font-medium text-blue-501 hover:text-blue-400 transition duration-150 ease-in-out" href="#0"></a>
+                                    <span>Meow:3 </span> <a
+                                        class="font-medium text-blue-501 hover:text-blue-400 transition duration-150 ease-in-out"
+                                        href="#0"></a>
                                 </footer>
                             </article>
 
                             <!-- 3rd Testimonial -->
-                            <article class="h-full flex flex-col bg-orange-800 p-6" data-aos="fade" data-aos-anchor="[data-aos-id-testimonials]" data-aos-delay="200">
+                            <article class="h-full flex flex-col bg-orange-800 p-6 rounded" data-aos="fade"
+                                data-aos-anchor="[data-aos-id-testimonials]" data-aos-delay="200">
                                 <header class="mb-4">
-                                    <img class="rounded-full shrink-0" src="images/testimonials/testim3.webp" width="48" height="48" alt="Testimonial 03" />
+                                    <img class="rounded-full shrink-0" src="images/testimonials/testim3.webp" width="48"
+                                        height="48" alt="Testimonial 03" />
                                 </header>
                                 <div class="grow mb-3">
-                                    <p>Very good product. Only problem is it took me some time to get money to afford but after this the trading went amazing.</p>
+                                    <p>Very good product. Only problem is it took me some time to get money to afford
+                                        but after this the trading went amazing.</p>
                                 </div>
                                 <footer class="text-sm">
-                                    <span>Nanaz</span>  <a class="font-medium text-blue-501 hover:text-blue-400 transition duration-150 ease-in-out" href="#0"></a>
+                                    <span>Nanaz</span> <a
+                                        class="font-medium text-blue-501 hover:text-blue-400 transition duration-150 ease-in-out"
+                                        href="#0"></a>
                                 </footer>
                             </article>
 
-
-                            <!-- 7th Testimonial -->
-                            <article class="h-full flex flex-col bg-orange-800 p-6" data-aos="fade" data-aos-anchor="[data-aos-id-testimonials]" data-aos-delay="600">
+                            <!-- 4th Testimonial -->
+                            <article class="h-full flex flex-col bg-orange-800 p-6 rounded" data-aos="fade"
+                                data-aos-anchor="[data-aos-id-testimonials]" data-aos-delay="600">
                                 <header class="mb-4">
-                                    <img class="rounded-full shrink-0" src="images/testimonials/testim4.webp" width="48" height="48" alt="Testimonial 07" />
+                                    <img class="rounded-full shrink-0" src="images/testimonials/testim4.webp" width="48"
+                                        height="48" alt="Testimonial 07" />
                                 </header>
                                 <div class="grow mb-3">
-                                    <p>The supreme suite is amazing. I am the owners real life friend and I must say that being able to get into trading to make some side money has been a blast! I almost make my paycheck in just trading!</p>
+                                    <p>The supreme suite is amazing. I am the owners real life friend and I must say
+                                        that being able to get into trading to make some side money has been a blast! I
+                                        almost make my paycheck in just trading!</p>
                                 </div>
                                 <footer class="text-sm">
-                                    <span>Ball</span> <a class="font-medium text-blue-501 hover:text-blue-400 transition duration-150 ease-in-out" href="#0"> </a>
+                                    <span>Ball</span> <a
+                                        class="font-medium text-blue-501 hover:text-blue-400 transition duration-150 ease-in-out"
+                                        href="#0"> </a>
                                 </footer>
                             </article>
 
-                            <!-- 8th Testimonial -->
-                            <article class="h-full flex flex-col bg-orange-800 p-6" data-aos="fade" data-aos-anchor="[data-aos-id-testimonials]" data-aos-delay="700">
+                            <!-- 5th Testimonial -->
+                            <article class="h-full flex flex-col bg-orange-800 p-6 rounded" data-aos="fade"
+                                data-aos-anchor="[data-aos-id-testimonials]" data-aos-delay="700">
                                 <header class="mb-4">
-                                    <img class="rounded-full shrink-0" src="images/testimonials/testim5.webp" width="48" height="48" alt="Testimonial 08" />
+                                    <img class="rounded-full shrink-0" src="images/testimonials/testim5.webp" width="48"
+                                        height="48" alt="Testimonial 08" />
                                 </header>
                                 <div class="grow mb-3">
-                                    <p>The owners are really kind but the setup is a little difficult. So far it has been 3 weeks and I have profited $501. I know it takes time though, hopefully next time I write a review my $501 will be doubled</p>
+                                    <p>The owners are really kind but the setup is a little difficult. So far it has
+                                        been 3 weeks and I have profited $501. I know it takes time though, hopefully
+                                        next time I write a review my $501 will be doubled</p>
                                 </div>
                                 <footer>
-                                    <span>BigBalkanCan</span>  <a class="font-medium text-blue-501 hover:text-blue-400 transition duration-150 ease-in-out" href="#0"></a>
+                                    <span>BigBalkanCan</span> <a
+                                        class="font-medium text-blue-501 hover:text-blue-400 transition duration-150 ease-in-out"
+                                        href="#0"></a>
                                 </footer>
                             </article>
 
-                            <!-- 9th Testimonial -->
-                            <article class="h-full flex flex-col bg-orange-800 p-6" data-aos="fade" data-aos-anchor="[data-aos-id-testimonials]" data-aos-delay="800">
+                            <!-- 6th Testimonial -->
+                            <article class="h-full flex flex-col bg-orange-800 p-6 rounded" data-aos="fade"
+                                data-aos-anchor="[data-aos-id-testimonials]" data-aos-delay="800">
                                 <header class="mb-4">
-                                    <img class="rounded-full shrink-0" src="images/testimonials/testim6.webp" width="48" height="48" alt="Testimonial 09" />
+                                    <img class="rounded-full shrink-0" src="images/testimonials/testim6.webp" width="48"
+                                        height="48" alt="Testimonial 09" />
                                 </header>
                                 <div class="grow mb-3">
                                     <p>+rep easy and fast service premium is very good</p>
                                 </div>
                                 <footer class="text-sm">
-                                    <span>Communist Cat</span>  <a class="font-medium text-blue-501 hover:text-blue-400 transition duration-150 ease-in-out" href="#0"></a>
+                                    <span>Communist Cat</span> <a
+                                        class="font-medium text-blue-501 hover:text-blue-400 transition duration-150 ease-in-out"
+                                        href="#0"></a>
                                 </footer>
                             </article>
 
@@ -503,36 +587,40 @@
                 <div class="max-w-6xl mx-auto px-4 sm:px-6">
                     <div class="py-12 md:py-20">
 
-            <!-- CTA -->
-            <section>
-                <div class="max-w-6xl mx-auto px-4 sm:px-6">
+                        <!-- CTA -->
+                        <section>
+                            <div class="max-w-6xl mx-auto px-4 sm:px-6">
 
-                    <!-- CTA box -->
+                                <!-- CTA box -->
 
-                    <div class="relative bg-gradient-to-tr from-orange-800 rounded py-10 px-8 md:py-16 md:px-12 overflow-hidden" data-aos="zoom-out">
+                                <div class="relative bg-gradient-to-tr from-orange-800 rounded py-10 px-8 md:py-16 md:px-12 overflow-hidden"
+                                    data-aos="zoom-out">
 
-                        <div class="flex flex-col lg:flex-row justify-between items-center">
+                                    <div class="flex flex-col lg:flex-row justify-between items-center">
 
-                            <!-- CTA content -->
-                            <div class="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left">
+                                        <!-- CTA content -->
+                                        <div class="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left">
 
-                                <h3 class="text-4xl font-bold font-uncut-sans mb-2">Have any questions? Email us.</h3>
+                                            <h3 class="text-4xl font-bold font-uncut-sans mb-2">Have any questions?
+                                                Email us.</h3>
+
+                                        </div>
+
+                                        <!-- CTA button -->
+                                        <div class="shrink-0">
+                                            <a class="btn-sm text-white bg-gradient-to-t from-orange-800 to-gray-900 hover:to-blue-501 w-full group shadow-lg"
+                                                href="mailto:stockhuborangetrading@gmail.com">
+                                                Email <span
+                                                    class="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
 
                             </div>
-
-                            <!-- CTA button -->
-                            <div class="shrink-0">
-                                <a class="btn-sm text-white bg-gradient-to-t from-orange-800 to-gray-900 hover:to-blue-501 w-full group shadow-lg" href="mailto:stockhuborangetrading@gmail.com">
-                                    Email <span class="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
-                                </a>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-            </section>
+                        </section>
 
         </main>
 
@@ -548,11 +636,13 @@
                         <div class="mb-2">
                             <!-- Logo -->
                             <a class="inline-flex" href="index.html" aria-label="Cruip">
-                               <img src="images/stockhub_logo_no_bg_white.png" width="50" height="50">
+                                <img src="images/stockhub_logo_no_bg_white.png" width="50" height="50">
                             </a>
                         </div>
                         <div class="text-sm">
-                            <a class="hover:text-blue-501 transition duration-150 ease-in-out" href="terms-of-use.html">Terms of Service</a><a class="hover:text-blue-501 transition duration-150 ease-in-out" href="#0"></a>
+                            <a class="hover:text-blue-501 transition duration-150 ease-in-out"
+                                href="terms-of-use.html">Terms of Service</a><a
+                                class="hover:text-blue-501 transition duration-150 ease-in-out" href="#0"></a>
                         </div>
                     </div>
 
@@ -561,11 +651,13 @@
                         <h6 class="text-xs font-semibold uppercase mb-2">Contact</h6>
                         <ul class="text-sm space-y-2">
                             <li>
-                                <a class="hover:text-blue-501 transition duration-150 ease-in-out" href="">Telegram Contact</a>
+                                <a class="hover:text-blue-501 transition duration-150 ease-in-out" href="">Telegram
+                                    Contact</a>
 
                             </li>
                             <li>
-                                <a class="hover:text-blue-501 transition duration-150 ease-in-out" href="mailto:stockhuborangetrading@gmail.com">Email</a>
+                                <a class="hover:text-blue-501 transition duration-150 ease-in-out"
+                                    href="mailto:stockhuborangetrading@gmail.com">Email</a>
 
                             </li>
 
@@ -584,9 +676,7 @@
     <script src="./js/vendors/alpinejs.min.js" defer></script>
     <script src="./js/vendors/aos.js"></script>
     <script src="./js/main.js"></script>
-    <script
-        type="module"
-    >
+    <script type="module">
     </script>
     <script>
         AOS.init(); // Initialize AOS for animations
