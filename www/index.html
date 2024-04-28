@@ -8,59 +8,13 @@
     <link href="./style.css" rel="stylesheet">
 
     <!-- Favicon -->
-    <link rel='icon' type='image/png' href='images/stockhub_logo_no_bg_white.png'/>
+    <link rel='icon' type='image/png' href='images/stockhub_logo_no_bg_white.png' />
 </head>
 
 <body class="font-inter antialiased bg-rust tracking-tight">
 
     <!-- Page wrapper -->
     <div class="flex flex-col min-h-screen overflow-hidden text-white">
-
-
-        <!-- Page content -->
-        <!-- TradingView Widget BEGIN -->
-        <div class="tradingview-widget-container">
-            <div class="tradingview-widget-container__widget"></div>
-            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow"
-                    target="_blank"><span class="blue-text"></span></a></div>
-            <script type="text/javascript"
-                src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-                    {
-                        "symbols": [
-                            {
-                                "description": "",
-                                "proName": "NASDAQ:TSLA"
-                            },
-                            {
-                                "description": "",
-                                "proName": "NASDAQ:NVDA"
-                            },
-                            {
-                                "description": "",
-                                "proName": "NASDAQ:AAPL"
-                            },
-                            {
-                                "description": "",
-                                "proName": "NASDAQ:META"
-                            },
-                            {
-                                "description": "",
-                                "proName": "SP:SPX"
-                            },
-                            {
-                                "description": "",
-                                "proName": "BLACKBULL:US30"
-                            }
-                        ],
-                            "showSymbolLogo": true,
-                                "isTransparent": true,
-                                    "displayMode": "adaptive",
-                                        "colorTheme": "dark",
-                        "locale": "en"
-                    }
-                </script>
-        </div>
-        <!-- TradingView Widget END -->
 
         <main class="grow">
 
@@ -74,10 +28,10 @@
                         </a>
                     </li>
                     <li class="ml-3">
-                      <a class="btn-sm text-white bg-rust hover:to-blue-501 w-full shadow-lg group"
-                          href="account/signup.html">
-                          Sign Up
-                      </a>
+                        <a class="btn-sm text-white bg-rust hover:to-blue-501 w-full shadow-lg group"
+                            href="account/signup.html">
+                            Sign Up
+                        </a>
                     </li>
                 </ul>
             </header>
@@ -96,6 +50,60 @@
                 </div>
 
             </section>
+
+            <!-- TradingView Widget BEGIN -->
+        <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"></div>
+            <script type="text/javascript"
+                src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+                    {
+                        "symbols": [
+                            {
+                                "proName": "FOREXCOM:SPXUSD",
+                                "title": "S&P 500 Index"
+                            },
+                            {
+                                "description": "NASDAQ",
+                                "proName": "NASDAQ:NDX"
+                            },
+                            {
+                                "description": "APPLE",
+                                "proName": "NASDAQ:AAPL"
+                            },
+                            {
+                                "description": "TESLA",
+                                "proName": "NASDAQ:TSLA"
+                            },
+                            {
+                                "description": "NVIDIA",
+                                "proName": "NASDAQ:NVDA"
+                            },
+                            {
+                                "description": "ALPHABET",
+                                "proName": "NASDAQ:GOOG"
+                            },
+                            {
+                                "description": "AMAZON",
+                                "proName": "NASDAQ:AMZN"
+                            },
+                            {
+                                "description": "MICROSOFT",
+                                "proName": "NASDAQ:MSFT"
+                            },
+                            {
+                                "description": "DOW JONES",
+                                "proName": "TVC:DJI"
+                            }
+                        ],
+                            "showSymbolLogo": true,
+                                "isTransparent": true,
+                                    "displayMode": "regular",
+                                        "colorTheme": "dark",
+                                            "locale": "en"
+                    }
+                </script>
+        </div>
+        <!-- TradingView Widget END -->
 
             <!-- The best ... -->
             <!-- Features -->
