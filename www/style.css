@@ -1423,6 +1423,15 @@ input[type=range]::-moz-focus-outer {
   height: 6rem;
 }
 
+.h-22{
+  height: 22rem;
+}
+
+
+.min-h-26rem {
+  min-height: 26rem;
+}
+
 .min-h-screen{
   min-height: 100vh;
 }
